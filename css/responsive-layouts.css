@@ -1,8 +1,11 @@
 
 /*responsive layout*/
 @media (min-width: 768px) and (max-width: 1023px) {
+	.banner-image{
+		background-position:30% 50%;
+	}
 	.banner-text img{
-		width: 30vw;
+		width: 24vw;
 	}
 	.banner-title {
     	font-size: 5.5vw;
@@ -16,6 +19,10 @@
 	.office-address-mask .office-address:nth-child(2) {
 	    float: left;
 	    padding-left: 0vw;
+	}
+	.office-address-mask .office-address:nth-child(2) .fa-circle{
+		font-size: 0.8vw;
+		padding-right: 2vw;
 	}
 	.social-instagram{
 		font-size: 1.5vw;
@@ -49,6 +56,10 @@
 	}
 	.office-address-mask .office-address:nth-child(2) .fa{
 		font-size: 2vw;
+	}
+	.office-address-mask .office-address:nth-child(2) .fa-circle{
+		font-size: 1vw;
+		padding-right: 2.5vw;
 	}
 	.social-links {
 	    margin-top: 5vh;
