@@ -1,19 +1,61 @@
 
 /*responsive layout*/
 @media (min-width: 1601px) and (max-width: 1680px) {}
-@media (min-width: 1441px) and (max-width: 1600px) {}
+/*@media (min-width: 1441px) and (max-width: 1600px) {}
 @media (min-width: 1367px) and (max-width: 1440px) {}
 @media (min-width: 1281px) and (max-width: 1366px) {}
-@media (min-width: 1024px) and (max-width: 1280px) {}
+@media (min-width: 1024px) and (max-width: 1280px) {}*/
 @media (min-width: 768px) and (max-width: 1023px) {}
 /*mobile vertical layout*/
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+	.banner-text img{
+		width: 60vw;
+	}
+	.banner-title{
+		font-size: 7.5vw;
+	}
+	.office-address,
+	.social-facebook,
+	.social-instagram{
+		font-size: 2.5vw;
+	}
+	.location-address {
+    	padding-left: 5vw;
+	}
+	.location-address .fa-map-marker {
+    	font-size: 4vw;
+	}
+	.office-address-mask .office-address:nth-child(2) .fa{
+		font-size: 2vw;
+	}
+	.social-links {
+	    margin-top: 5vh;
+	}
+	.social-links{
+    	display: flex;
+	}
+	.social-instagram  {-webkit-order: 1;}
+	.social-instagram  {order: 1; font-size: 2.5vw; padding:0vw 4vw 0vw 0vw;}
+	.social-facebook  {-webkit-order: 2;}
+	.social-facebook  {order: 2; font-size: 2.5vw;}
+	.social-links .fa{
+		font-size: 4vw;
+		padding-right:1vw;
+	}
+	.banner-image{
+		background-position:36% 50%;
+	}
+}
 /*mobile horizontal layout*/
-@media (min-width: 480px) and (max-width: 767px) {}
-@media only screen and (max-width : 736px) {}
+@media (min-width: 480px) and (max-width: 767px) {
+	.banner-text img{
+		width: 21vw;
+	}
+}
+/*@media only screen and (max-width : 736px) {}
 @media only screen and (max-width : 667px) {}
 @media only screen and (max-width : 480px) {}
 @media only screen and (max-width : 414px) {}
 @media only screen and (max-width : 375px) {}
 @media only screen and (max-width : 360px) {}
-@media only screen and (max-width : 320px) {}
+@media only screen and (max-width : 320px) {}*/
