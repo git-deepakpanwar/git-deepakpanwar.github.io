@@ -72,6 +72,7 @@ body{
 }
 .location-address .fa-map-marker{
     font-size: 1.5vw;
+    margin-top: 0.2vw;
     position: absolute;
     left: 0;
     color: #fff;
