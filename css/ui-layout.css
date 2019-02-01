@@ -12,3 +12,105 @@
     font-weight: bold;
     font-style: normal;
 }
+body{
+    float: left;
+    width: 100%;
+    font-size: 62.5%;
+    font-family: 'Century Gothic';
+    font-style: normal;
+}
+.banner-image{
+    float: left;
+    width: 100%;
+    background: url(../images/background-image.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+}
+.banner-text-mask{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+.banner-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.banner-text img{
+    float: none;
+    display: inline-block;
+}
+.banner-title{
+    font-size: 5.3rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 6rem;
+    margin-bottom: 7.5rem;
+}
+.address-social-info{
+    width: 1260px;
+    margin:0 auto;
+}
+.location-address-mask{
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.social-links-mask{
+    float: right;
+    text-align: left;
+    width: 100%;
+}
+.location-address{
+    background: url(../images/address-pin.png) no-repeat;
+    background-position: 2px 5px;
+    height: 25px;
+    padding-left: 25px;
+}
+.social-links{
+    float: right;
+    text-align: left;
+    width: 100%;
+}
+.office-address-mask{
+    float: left;
+    width: 100%;
+}
+.office-address{
+    float: left;
+    min-width: 345px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+.office-address-mask .office-address:nth-child(2){
+    float: left;
+    background: url(../images/address-circle.png) no-repeat;
+    background-position: 0px 10px;
+    padding-left: 20px;
+}
+.social-instagram{
+    float: left;
+    background: url(../images/instagram-logo.png) no-repeat;
+    background-position: 0px 0px;
+    padding: 0px 15px 0px 35px;
+    height: 26px;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.social-facebook{
+    float: left;
+    background: url(../images/facebook-logo.png) no-repeat;
+    background-position: 0px 0px;
+    padding-left: 35px;
+    height: 25px;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
