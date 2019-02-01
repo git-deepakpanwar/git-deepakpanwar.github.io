@@ -1,8 +1,14 @@
-.carousel-item{
-	height: calc(100vh - 60px);
-	
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-.carousel-item img{
-	background-size: cover;
-	height: 100vh;
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
