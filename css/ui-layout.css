@@ -15,7 +15,6 @@
 body{
     float: left;
     width: 100%;
-    font-size: 62.5%;
     font-family: 'Century Gothic';
     font-style: normal;
 }
@@ -40,17 +39,18 @@ body{
 }
 .banner-text img{
     float: none;
+    width: 21vw;
     display: inline-block;
 }
 .banner-title{
-    font-size: 5.3rem;
+    font-size: 4vw;
     color: #ffffff;
     font-weight: bold;
-    margin-top: 6rem;
-    margin-bottom: 7.5rem;
+    margin-top: 8vh;
+    margin-bottom: 15vh;
 }
 .address-social-info{
-    width: 1260px;
+    width: 90vw;
     margin:0 auto;
 }
 .location-address-mask{
@@ -59,20 +59,29 @@ body{
     width: 100%;
 }
 .social-links-mask{
-    float: right;
+    float: left;
     text-align: left;
     width: 100%;
 }
 .location-address{
-    background: url(../images/address-pin.png) no-repeat;
+    /*background: url(../images/address-pin.png) no-repeat;
     background-position: 2px 5px;
-    height: 25px;
-    padding-left: 25px;
+    height: 25px;*/
+    padding-left: 1.5vw;
+    position: relative;
+}
+.location-address .fa-map-marker{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 0;
+    color: #fff;
 }
 .social-links{
-    float: right;
-    text-align: left;
     width: 100%;
+}
+.social-links .fa{
+    font-size: 1.5vw;
+    color: #ffffff;
 }
 .office-address-mask{
     float: left;
@@ -80,35 +89,40 @@ body{
 }
 .office-address{
     float: left;
-    min-width: 345px;
+    /*width: 345px;*/
     font-weight: bold;
-    padding-right: 20px;
-    font-size: 1.8rem;
+    padding-right: 2vw;
+    font-size: 1.2vw;
     color: #ffffff;
 }
 .office-address-mask .office-address:nth-child(2){
     float: left;
-    background: url(../images/address-circle.png) no-repeat;
-    background-position: 0px 10px;
-    padding-left: 20px;
+    padding-left: 2vw;
+}
+.office-address-mask .office-address:nth-child(2) .fa{
+    padding: 0vw 1vw;
+    font-size: 0.5vw;
+    color: #fff;
+    position: relative;
+    top: -0.2vw;
 }
 .social-instagram{
-    float: left;
-    background: url(../images/instagram-logo.png) no-repeat;
-    background-position: 0px 0px;
-    padding: 0px 15px 0px 35px;
-    height: 26px;
-    font-size: 1.8rem;
+    float: right;
+    /*background: url(../images/instagram-logo.png) no-repeat;
+    background-position: 0px 0px;*/
+    padding: 0vw 1vw 0vw 0vw;
+    /*height: 26px;*/
+    font-size: 1.2vw;
     color: #ffffff;
     font-weight: bold;
 }
 .social-facebook{
-    float: left;
-    background: url(../images/facebook-logo.png) no-repeat;
-    background-position: 0px 0px;
-    padding-left: 35px;
-    height: 25px;
-    font-size: 1.8rem;
+    float: right;
+    /*background: url(../images/facebook-logo.png) no-repeat;
+    background-position: 0px 0px;*/
+    padding-left: 0vw;
+    /*height: 25px;*/
+    font-size: 1.2vw;
     color: #ffffff;
     font-weight: bold;
 }
