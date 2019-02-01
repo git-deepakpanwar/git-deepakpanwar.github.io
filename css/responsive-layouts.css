@@ -1,14 +1,8 @@
 
 /*responsive layout*/
-/*@media (min-width: 1601px) and (max-width: 1680px) {}
-@media (min-width: 1441px) and (max-width: 1600px) {}
-@media (min-width: 1367px) and (max-width: 1440px) {}*/
-/*@media (min-width: 1281px) and (max-width: 1366px) {}
-@media (min-width: 1024px) and (max-width: 1280px) {}*/
-
 @media (min-width: 768px) and (max-width: 1023px) {
 	.banner-text img{
-		width: 45vw;
+		width: 30vw;
 	}
 	.banner-title {
     	font-size: 5.5vw;
@@ -85,7 +79,7 @@
 		width: 21vw;
 	}
 	.banner-title {
-	    font-size: 3vw;
+	    font-size: 4vw;
 	    margin-top: 7vh;
     	margin-bottom: 12vh;
 	}
@@ -108,10 +102,3 @@
 	    font-size: 0.8vw;
 	}
 }
-/*@media only screen and (max-width : 736px) {}
-@media only screen and (max-width : 667px) {}
-@media only screen and (max-width : 480px) {}
-@media only screen and (max-width : 414px) {}
-@media only screen and (max-width : 375px) {}
-@media only screen and (max-width : 360px) {}
-@media only screen and (max-width : 320px) {}*/

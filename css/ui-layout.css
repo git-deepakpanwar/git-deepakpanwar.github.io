@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Century Gothic';
     src: url('../fonts/CenturyGothic.woff2') format('woff2'),
-        url('../fonts/CenturyGothic.woff') format('woff');
+    url('../fonts/CenturyGothic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Century Gothic';
     src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
-        url('../fonts/CenturyGothic-Bold.woff') format('woff');
+    url('../fonts/CenturyGothic-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -64,9 +64,6 @@ body{
     width: 100%;
 }
 .location-address{
-    /*background: url(../images/address-pin.png) no-repeat;
-    background-position: 2px 5px;
-    height: 25px;*/
     padding-left: 1.5vw;
     position: relative;
 }
@@ -90,10 +87,13 @@ body{
 }
 .office-address{
     float: left;
-    /*width: 345px;*/
     font-weight: bold;
     padding-right: 2vw;
     font-size: 1.2vw;
+    color: #ffffff;
+}
+.office-address a{
+    text-decoration: none;
     color: #ffffff;
 }
 .office-address-mask .office-address:nth-child(2){
@@ -109,23 +109,23 @@ body{
 }
 .social-instagram{
     float: right;
-    /*background: url(../images/instagram-logo.png) no-repeat;
-    background-position: 0px 0px;*/
     padding: 0vw 1vw 0vw 0vw;
-    /*height: 26px;*/
     font-size: 1.2vw;
     color: #ffffff;
     font-weight: bold;
 }
 .social-facebook{
     float: right;
-    /*background: url(../images/facebook-logo.png) no-repeat;
-    background-position: 0px 0px;*/
     padding-left: 0vw;
-    /*height: 25px;*/
     font-size: 1.2vw;
     color: #ffffff;
     font-weight: bold;
+}
+.social-facebook a,
+.social-instagram a
+{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 
