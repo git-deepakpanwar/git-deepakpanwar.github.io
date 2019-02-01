@@ -44,6 +44,7 @@
 	}
 	.banner-image{
 		background-position:36% 50%;
+		height: auto;
 	}
 }
 /*mobile horizontal layout*/
