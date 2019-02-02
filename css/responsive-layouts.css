@@ -39,6 +39,19 @@
 	.social-links .fa{
 		padding-right: 0.2vw;
 	}
+	.office-address span {
+	    float: left;
+	    min-width: 7.5vw;
+	}
+	.office-address{
+		font-size: 1.5vw;
+		min-width: 28vw;
+	}
+	.office-address-mask .office-address:nth-child(2) .fa {
+	    font-size: 0.8vw;
+		min-width: auto;
+		padding-right: 1.5vw;
+	}
 }
 /*mobile vertical layout*/
 @media only screen and (max-width: 767px) {
@@ -83,6 +96,17 @@
 	.banner-image{
 		background-position:36% 50%;
 	}
+	.office-address span{
+	    float: left;
+	    min-width: 11vw;
+	}
+	.office-address{
+		min-width: 45vw;
+	}
+	.office-address-mask .office-address:nth-child(2){
+		min-width: auto;
+	}
+
 }
 /*mobile horizontal layout*/
 @media (min-width: 480px) and (max-width: 767px) {
@@ -104,12 +128,21 @@
 	.location-address{
 		padding-left: 3vw;
 	}
-	.office-address,
+	.office-address{
+		font-size: 1.5vw;
+		min-width: 28vw;
+	}
 	.social-facebook,
 	.social-instagram{
 		font-size: 1.5vw;
 	}
+	.office-address span{
+	    float: left;
+	    min-width: 7vw;
+	}
 	.office-address-mask .office-address:nth-child(2) .fa {
 	    font-size: 0.8vw;
+		min-width: auto;
+		padding-right: 1.5vw;
 	}
 }
